@@ -1,0 +1,43 @@
+.containerAll {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.contenedorNav {
+    position: fixed;
+    height: 100vh;
+    width: 35vw;
+    background-image:
+        url(/src/components/imagenes/GradientOrange\ -\ rotada.png), url(/src/components/imagenes/GradientOrange.png), url(/src/components/imagenes/Chihuahua\ Centro\ Capital.jpg);
+    background-position:
+        center,
+        center,
+        center;
+    /* posición de la imagen de fondo original */
+    background-size:
+        cover,
+        cover,
+        cover;
+    /* tamaño de la imagen de fondo original */
+    background-repeat:
+        no-repeat,
+        no-repeat,
+        no-repeat;
+
+}
+
+
+.titulo {
+    padding-top: 5vw;
+    color: aliceblue;
+    font-size: 3em;
+    text-align: start;
+    width: 70%;
+    margin-left: 4vh;
+}
+
+.textOrange {
+    color: orange;
+}
